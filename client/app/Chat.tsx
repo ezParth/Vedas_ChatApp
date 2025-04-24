@@ -8,7 +8,7 @@ import {
   ImageBackground,
   TouchableOpacity,
   Image,
-  Dimensions, // Import Dimensions
+  Dimensions,
 } from 'react-native';
 import io from 'socket.io-client';
 
@@ -20,7 +20,7 @@ interface Message {
 
 const socket = io('http://192.168.154.32:3000');
 
-const screenWidth = Dimensions.get('window').width; // Get screen width
+const screenWidth = Dimensions.get('window').width;
 
 export default function Chat() {
   const [message, setMessage] = useState<string>('');
@@ -90,12 +90,12 @@ export default function Chat() {
 
         <View style={styles.inputContainer}>
           <TextInput
-            style={[styles.input, { width: screenWidth * 0.8 }]} // Set width dynamically based on screen width
+            style={[styles.input, { width: screenWidth * 0.8 }]}
             value={message}
             onChangeText={setMessage}
             placeholder="Type a message"
             placeholderTextColor="#666"
-            multiline // Keep multiline prop here
+            multiline
             blurOnSubmit={false}
             returnKeyType="send"
             onSubmitEditing={() => {
