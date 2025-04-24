@@ -1,7 +1,7 @@
 # Chat App
 
 ![Main Preview](./client/assets/images/Demo%20screen.png)
-![Main Preview](./client/assets/images/Screenshot%202025-04-24%20at%203.57.52 PM.png)
+![Preview](./client/assets/images/Screenshot%202025-04-24%20at%203.57.52 PM.png)
 ![Main Preview](./client/assets/images/Screenshot%202025-04-24%20at%203.57.43 PM.png)
 ![Main Preview](./client/assets/images/Screenshot%202025-04-24%20at%203.57.37 PM.png)
 
